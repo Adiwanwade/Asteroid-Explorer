@@ -5,10 +5,10 @@
     "description": "A beautiful mobile application for exploring Near-Earth Objects (NEOs) using NASA's API.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.jpg",
+    "icon": "./assets/icon-resized.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.jpg",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.jpg",
+        "foregroundImage": "./assets/icon-resized.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.adiwanwade.asteroidexplorer"
