@@ -1,27 +1,41 @@
 {
   "expo": {
-    "name": "internal3",
-    "slug": "internal3",
+    "name": "Asteroid Explorer",
+    "slug": "asteroid-explorer",
+    "description": "A beautiful mobile application for exploring Near-Earth Objects (NEOs) using NASA's API.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adiwanwade.asteroidexplorer"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.adiwanwade.asteroidexplorer"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7c43e504-f9b5-433e-9822-1c3032dc3fbd"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7c43e504-f9b5-433e-9822-1c3032dc3fbd"
     }
   }
 }
